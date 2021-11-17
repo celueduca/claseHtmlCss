@@ -1,0 +1,31 @@
+p{
+    color: black;
+    background: saddlebrown;
+    letter-spacing: normal;
+}
+
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgb(243, 243, 196);
+}
+
+img{
+    margin-right: 16px;
+}
+header{
+    background-color: saddlebrown;
+    color:black;
+}
+header, section{
+    background-color:saddlebrown;
+    color: black;
+    width: 960px;
+    margin: 0 auto;
+    display: flex;
+}
+
+article{
+    background-color:saddlebrown;
+    color: black;
+    width: 60%;
+}
