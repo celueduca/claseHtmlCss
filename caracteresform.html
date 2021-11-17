@@ -1,0 +1,73 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Mi tercer página en HTML</title>
+</head>
+
+<body>
+    <!--&lt;&gt;&nbsp;&nbsp;&nbsp;&semi;&reg;&nbsp;
+        &aacute;-->
+    <form action="#" method="post">
+        Nombre:
+        <br>
+        <input type="text" name="user" size="15" maxlength="30" placeholder="Ingrese el usuario">
+        <br>
+        Password:
+        <br>
+        <input type="password" name="user" size="15" maxlength="30" placeholder="Ingrese la contraseña">
+        <br>
+        Comentarios:
+        <br>
+        <textarea name="comment" rows="2" cols="30" placeholder="Ingrese el comentario"></textarea>
+
+        <br>
+        Servicio de música checkbox:
+        <br>
+        <input type="checkbox" name="service" value="youtube" checked="true">Youtube<br>
+        <input type="checkbox" name="service" value="spotify" checked>Spotify<br>
+        <input type="checkbox" name="service" value="cassette">Cassette<br>
+
+        <br>
+        Servicio de música Radio button:
+        <br>
+        <input type="radio" name="gender" value="youtube" checked>Youtube<br>
+        <input type="radio" name="gender" value="spotify">Spotify<br>
+        <input type="radio" name="gender" value="cassette">Cassette<br>
+
+        <br>
+        Servicio de música select:
+        <br>
+        <select name="music">
+            <option selected disabled>Prueba</option>
+            <option value="youtube">youtube</option>
+            <option value="google music">Google</option>
+        </select>
+
+        <br>
+        <br>
+        <br>
+        <!--Servicio de música lista de selección:-->
+        <br>
+        <label for="music2">Servicio de música lista de selección:</label>
+        <select name="music2" size="3" multiple>
+            <option selected disabled>Prueba</option>
+            <option value="youtube">youtube</option>
+            <option value="google music">Google</option>
+        </select>
+
+        <br><br><br><br><br><br>
+        <fieldset>
+            <legend> Abecedario</legend>
+            <label>A</label>
+            <label>B</label>
+            <label>C</label>
+            <label>D</label>
+        </fieldset>
+        <br><br><br><br><br><br>
+
+        <input type="submit" value="Terminar">
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,54 @@
+h4 {
+    color: tomato;
+    text-align: right;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+/**Comentario CSS
+sghfhjgfhjgfd**/
+
+/*Selector Universal*/
+* {
+    font-family: "Times New Roman";
+}
+
+/*Selector Etiqueta*/
+span {
+    color: turquoise;
+    background-color: white;
+}
+
+/*Selector class*/
+.format {
+    border-radius: 30px;
+    background-color: violet;
+    text-decoration: underline;
+}
+
+/*Selector class*/
+#format2 {
+    border-radius: 20px;
+    background-color: yellow;
+    text-align: center;
+}
+
+/*Selector pseudo_class*/
+a:link {
+    color: yellowgreen;
+}
+a:visited {
+    color: aqua;
+}
+a:hover {
+    color: black;
+}
+a:active {
+    color: chocolate;
+}
+
+/*Selector atributo*/
+img[title] {
+    width: 200px;
+    height: auto;
+}
