@@ -1,0 +1,49 @@
+.contacto{
+    width: 500px;
+    padding: 0  25px 25px 25px;
+    border: 1px solid var(--white-bg-color);
+    margin-left: 25px;
+    margin-bottom: 25px;
+    border-radius: 2px;
+}
+
+.contacto form{
+    display: flex;
+    flex-direction: column;
+}
+.contacto-input{
+border: none;
+border-bottom: 1px solid var(--black-bg-color);
+padding: 10px;
+margin: 10px 0;
+}
+
+.contacto-input:focus{
+    outline: none;
+    border-bottom: 2px solid var(--main-bg-color);
+    transition: 0.1s;
+
+}
+.contacto-bottom{
+    margin-top: 10px;
+    height: 35px;
+    border-radius: 5px;
+    border: 1px solid var(--main-bg-color);
+    background-color: var(--main-bg-color);
+    color: var(--white-bg-color);
+    font-size: large;
+    cursor: pointer;
+}
+.contacto-bottom:hover{
+    background-color: #1939c5;
+    height: 38px;
+    transition: 1s;
+}
+.contacto-textarea{
+    margin: 10px 0;
+    padding: 15px;
+}
+.contacto-textarea:focus{
+    outline: none;
+    border:2px solid #1939c5;
+}

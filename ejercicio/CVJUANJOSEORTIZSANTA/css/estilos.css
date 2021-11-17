@@ -1,0 +1,69 @@
+@import url("cabecera.css");
+@import url("contenido-principal.css");
+@import url("estudios.css");
+@import url("formulario-contacto.css");
+:root {
+    --main-bg-color: #334ec6;
+    --white-bg-color: #cecccc;
+    --black-bg-color: #3a3a3a;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+a{
+    outline: none;
+    text-decoration: none;
+    color: var(--black-bg-color);
+}
+
+.subtitulos{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    color: var(--main-bg-color);
+    text-transform: uppercase;
+    letter-spacing: 0.15rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+footer {
+    height: 120px;
+    background-color: var(--main-bg-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+footer p {
+    
+    color: var(--white-bg-color);
+ }
+
+ .tarjetas{
+    padding: 25px;
+    list-style: none;
+}
+.tarjetas li:nth-child(odd){
+    border-left: 5px solid #223aa3;
+}
+.tarjetas li:nth-child(even){
+    text-align: right;
+    border-right: 5px solid #1d3083;
+}
+.tarjetas > li{
+    margin-bottom: 15px;
+    border: 1px solid #132c9e;
+    padding: 20px;
+    background-color:var(--main-bg-color);
+    border-radius: 10px ;
+}
+.tarjetas > li p{
+    color: var(--white-bg-color);
+}
+
+address {
+    color:var(--white-bg-color);
+}
