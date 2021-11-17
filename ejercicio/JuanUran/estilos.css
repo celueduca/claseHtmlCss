@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.encabezado{
+    width: 100%;
+    height: 300px;
+    background-image: url('./assets/fondoEncabezado.png');
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+}
+.encabezado-foto{
+    width: 40%;
+    margin-left: 200px;
+    object-fit: cover;
+    align-self: center;
+}
+.encabezado-foto img{
+    width: 120px;
+    border-radius: 50%;
+    border: solid 3px #FFF;
+}
+.encabezado-texto{
+    width: 40%;
+    align-self: center;
+    color: #FFF;
+}
+.encabezado-texto__subtitulo{
+    font-size: 20px;
+}
+.contenido{
+    text-align: center;
+}
+li{
+    list-style: none;
+}
+h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+p, li{
+   font-family: cursive;
+}
+.contenedor-formulario{
+    text-align: center;
+    margin-bottom: 20px;
+}
+input{
+    margin-top: 20px;
+    width: 200px;
+    border-radius: 5px;
+    height: 25px;
+}
+
