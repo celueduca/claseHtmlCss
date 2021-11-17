@@ -1,0 +1,130 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    
+}
+/*--------------Header Style-----------------*/
+.header
+{
+    height: 50vh;
+    background-image: url('./backgroud.jpg');
+}
+
+.usuario
+{
+    top: 25%;
+    left: 13%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+.usuario img
+{
+    width: 200px;
+    border-radius: 40%;
+}
+.nombre
+{
+    top: 25%;
+    left: 37%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+.p1
+{
+    color: white;
+    font-size: 400%;
+    font-weight: bold;
+    margin: 10px;
+    
+}
+.p2 
+{
+    color: white;
+    font-size: 300%;
+    font-weight: bold;
+    margin: 10px;
+}
+/*--------------Contenido CSS--------------*/
+.contenido
+{
+    padding-left: 7%;
+    padding-bottom: 20px;
+    background: #f9f9f9;
+    overflow: hidden;
+}
+.cont1
+{
+    padding: 1em;
+    float: left;
+}
+.cont2
+{
+    padding-right: 20em;
+    float: right;
+}
+.habilidades
+{
+    list-style-type: none;
+    position: relative;
+}
+.habilidades:before
+{
+    content:'';
+    background: #555;
+    display: inline-block;
+    position: absolute;
+    left: 29px;
+    width: 2px;
+    height: 100%;
+    z-index: 1;
+}
+.expLaboral
+{
+    list-style-type: none;
+    position: relative;
+}
+.expLaboral:before
+{
+    content:'';
+    background: #555;
+    display: inline-block;
+    position: absolute;
+    left: 29px;
+    width: 2px;
+    height: 100%;
+    z-index: 1;
+}
+.estudios
+{
+    list-style-type: none;
+    position: relative;
+}
+.estudios:before
+{
+    content:'';
+    background: #555;
+    display: inline-block;
+    position: absolute;
+    left: 29px;
+    width: 2px;
+    height: 100%;
+    z-index: 1;
+}
+.formulario
+{
+
+    background: #3f3e3e8c;
+    padding-left: 9%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.formulario input
+{
+    border-radius: 5%;
+}
+
+
+
+
